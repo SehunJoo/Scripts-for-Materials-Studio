@@ -17,7 +17,7 @@ use MaterialsScript qw(:all);
 # ====================================================================================================
 
 my $xsdname = "PI-COF_1x1x2";				# xsd name
-my $setname = "top_layer";					# set for 2D translation
+my $setname = "top_layer";					# set for 2D translation / Edit > Edit Sets > New...
 my $writelevel = "xtd+xsd";					# 1) text 2) xtd+xsd 3) xtd
 my ($ia, $ib) = (16, 16);					# Range: from (0, 0) to ($ia, $ib) (# points: ($ia+1)*($ib+1))
 my ($na, $nb) = (16, 16);					# subdivisions along the lattice vectors a and b
