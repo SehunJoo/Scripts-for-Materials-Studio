@@ -1,0 +1,66 @@
+#!perl
+
+use strict;
+use Getopt::Long;
+use MaterialsScript qw(:all);
+
+my $xsddoc = $Documents{"".".xsd"};
+
+my $atoms = $xsddoc->UnitCell->Atoms;
+
+$atoms->Item(0)->Spin=	0.002	;
+$atoms->Item(1)->Spin=	0.002	;
+$atoms->Item(2)->Spin=	-0.002	;
+$atoms->Item(3)->Spin=	-0.002	;
+$atoms->Item(4)->Spin=	0.001	;
+$atoms->Item(5)->Spin=	-0.001	;
+$atoms->Item(6)->Spin=	0.001	;
+$atoms->Item(7)->Spin=	-0.001	;
+$atoms->Item(8)->Spin=	-0.224	;
+$atoms->Item(9)->Spin=	0.229	;
+$atoms->Item(10)->Spin=	0.228	;
+$atoms->Item(11)->Spin=	-0.221	;
+$atoms->Item(12)->Spin=	-0.086	;
+$atoms->Item(13)->Spin=	-0.085	;
+$atoms->Item(14)->Spin=	0.082	;
+$atoms->Item(15)->Spin=	0.085	;
+$atoms->Item(16)->Spin=	0.086	;
+$atoms->Item(17)->Spin=	0.085	;
+$atoms->Item(18)->Spin=	-0.082	;
+$atoms->Item(19)->Spin=	-0.085	;
+$atoms->Item(20)->Spin=	0.224	;
+$atoms->Item(21)->Spin=	0.221	;
+$atoms->Item(22)->Spin=	-0.228	;
+$atoms->Item(23)->Spin=	-0.229	;
+$atoms->Item(24)->Spin=	-0.002	;
+$atoms->Item(25)->Spin=	-0.013	;
+$atoms->Item(26)->Spin=	0.002	;
+$atoms->Item(27)->Spin=	0.013	;
+$atoms->Item(28)->Spin=	-0.014	;
+$atoms->Item(29)->Spin=	-0.004	;
+$atoms->Item(30)->Spin=	0.014	;
+$atoms->Item(31)->Spin=	0.003	;
+$atoms->Item(32)->Spin=	0.014	;
+$atoms->Item(33)->Spin=	0.013	;
+$atoms->Item(34)->Spin=	-0.013	;
+$atoms->Item(35)->Spin=	-0.002	;
+$atoms->Item(36)->Spin=	0.025	;
+$atoms->Item(37)->Spin=	0.025	;
+$atoms->Item(38)->Spin=	0.025	;
+$atoms->Item(39)->Spin=	0.026	;
+$atoms->Item(40)->Spin=	-0.025	;
+$atoms->Item(41)->Spin=	-0.026	;
+$atoms->Item(42)->Spin=	-0.025	;
+$atoms->Item(43)->Spin=	-0.025	;
+$atoms->Item(44)->Spin=	0.025	;
+$atoms->Item(45)->Spin=	-0.025	;
+$atoms->Item(46)->Spin=	0.025	;
+$atoms->Item(47)->Spin=	-0.025	;
+$atoms->Item(48)->Spin=	-0.025	;
+$atoms->Item(49)->Spin=	0.025	;
+$atoms->Item(50)->Spin=	-0.025	;
+$atoms->Item(51)->Spin=	0.025	;
+$atoms->Item(52)->Spin=	0.004	;
+$atoms->Item(53)->Spin=	-0.003	;
+$atoms->Item(54)->Spin=	-0.014	;
+$atoms->Item(55)->Spin=	0.002	;
