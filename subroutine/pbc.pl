@@ -1,4 +1,4 @@
-sub pbc
+sub PBC
 {
 	# Author : Se Hun Joo
 	# Usage
